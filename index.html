@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <title>Rick & Morty</title>
+  </head>
+  <body>
+    <header class="container_header">
+      <div>
+        <h1>Rick & Morty</h1>
+      </div>
+
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Contatos</li>
+        </ul>
+      </nav>
+
+      <div id="validator">
+        <h2>Você gosta da série ?</h2>
+        <input type="radio" name="validar" value="sim" />
+        <label for="">Sim</label>
+        <input type="radio" name="validar" value="nao" />
+        <label for="">Não</label>
+      </div>
+    </header>
+
+    <main>
+      <section id="home">
+        <article id="home_texto">
+          <div>
+          <h4>Bem vindo ao universo de Rick and Morty</h4><br>
+          <p>
+            Acompanhe malucas viagens no tempo-espaço e por universos paralelos
+             com Rick, um cientista com problemas com a bebida, e seu neto Morty,
+              um adolescente não tão brilhante quanto o avô.
+          </p><br>
+          <a target="_blank" href="video.html">Trailer</a>
+        </div>
+          
+          <img src="/assets/rickemortbg.png" alt="">
+        </article>
+      </section>
+      <section>
+        <form action="">
+            <label for="">Nome:</label>
+            <input type="text" name="nome" placeholder="Digite seu nome">
+
+            <label for="email"><strong>Email</strong></label>
+            <input id="email" type="email" name="email" placeholder="Digite seu email">
+
+            <label for="subject"><strong>Assunto</strong></label>
+            <input id="subject" type="subject" name="subject" placeholder="Digite o assunto">
+
+            <label for="message"><strong>Mensagem</strong></label>
+            <input id="message" name="message" placeholder="Digite sua mensagem">
+
+            <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+        <p>Feito por Thaís dos Santos</p>
+    </footer>
+  </body>
+</html>
